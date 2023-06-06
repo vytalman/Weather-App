@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     
     @IBAction func endEditingTextField(_ sender: UITextField) {
         let baseURLString = "https://api.openweathermap.org/data/2.5/forecast?q="
-        let APIKeyString = "&appid=4456fb3d92a65e2359141edd398865a3"
+        let APIKeyString = "&appid="
         guard var cityString = sender.text else { return }
         
         if cityString.contains(" ") {
